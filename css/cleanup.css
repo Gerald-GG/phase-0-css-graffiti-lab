@@ -1,1 +1,41 @@
-/* write your override styles here */
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 25px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #666;
+  }
+
+.tag-1 {
+    background-color: aqua;
+    font-size: 12px;
+  }
+
+  #tag-2 {
+    color: skyblue;
+  }
+  
+  .parent > div {
+    border: 1px solid black;
+  }
+  
+  .tag-1 {
+    text-color: white;
+  }
+  
+  .tag-1 {
+    opacity: 50%;
+  }
+  
+  .tag-1 {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+  }
